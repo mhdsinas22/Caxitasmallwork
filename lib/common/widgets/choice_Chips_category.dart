@@ -76,6 +76,7 @@ class ChoiceChipsCategory extends StatelessWidget {
                   children: [
                     Image.asset(Appimages.choicechipicon4),
                     const SizedBox(width: 2),
+                    Texts.thicktext("Forest"),
                   ],
                 ),
                 selected: false,

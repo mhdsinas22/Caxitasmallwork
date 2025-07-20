@@ -197,9 +197,6 @@ class DetailPage extends StatelessWidget {
                         ],
                       ),
                     ),
-                    // SizedBox(
-                    //   height: MediaQuery.of(context).size.height * 0.020,
-                    // ),
                     Padding(
                       padding: const EdgeInsets.all(8.0),
                       child: SizedBox(
@@ -208,13 +205,13 @@ class DetailPage extends StatelessWidget {
                         child: ElevatedButton(
                           onPressed: () {
                             try {
-                              print(totalprice);
+                              print({"totalprice${totalprice}"});
                               return cartprovider.addToCart(
                                 ProductsModels(
                                   qunatity: qunatiy,
                                   id: id,
                                   productname: placename,
-                                  price: double.parse(price),
+                                  price: totalprice,
                                   imageurl: image,
                                   about: about,
                                   location: location,

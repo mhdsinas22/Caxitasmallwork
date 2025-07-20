@@ -53,7 +53,7 @@ class HomeScreen extends StatelessWidget {
                     alignment: Alignment.topLeft,
                     child: Texts.boldtext(text: "Category", fontsize: 18),
                   ),
-                  Container(width: MediaQuery.of(context).size.width * 0.23),
+                  Container(width: MediaQuery.of(context).size.width * 0.20),
                   Align(
                     alignment: Alignment.topLeft,
                     child: TextsIconRowleft(),
@@ -116,7 +116,7 @@ class HomeScreen extends StatelessWidget {
                       fontsize: 18,
                     ),
                   ),
-                  Container(width: MediaQuery.of(context).size.width * 0.10),
+                  Container(width: MediaQuery.of(context).size.width * 0.08),
                   TextsIconRowleft(),
                 ],
               ),

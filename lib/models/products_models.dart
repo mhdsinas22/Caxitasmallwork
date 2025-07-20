@@ -26,6 +26,7 @@ class ProductsModels {
     ProductsModels(
       id: "p1",
       productname: "The Pink Beach",
+      totalprice: 48,
       price: 48,
       imageurl: Appimages.popluardestinonimage1,
       qunatity: 12,

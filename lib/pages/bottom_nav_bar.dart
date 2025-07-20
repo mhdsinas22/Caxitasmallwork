@@ -42,8 +42,8 @@ class BottomNavBar extends StatelessWidget {
                           navprovider.currentindex == 0
                               ? Appcolors.appbluecolor
                               : Appcolors.appdarkgreycolor,
-                      width: navprovider.currentindex == 0 ? 28 : 24,
-                      height: navprovider.currentindex == 0 ? 28 : 24,
+                      width: navprovider.currentindex == 0 ? 21.90 : 24,
+                      height: navprovider.currentindex == 0 ? 21.99 : 24,
                     ),
                   ),
                   SizedBox(height: 3),
@@ -73,6 +73,7 @@ class BottomNavBar extends StatelessWidget {
                           navprovider.currentindex == 1
                               ? Appcolors.appbluecolor
                               : Appcolors.appdarkgreycolor,
+                      size: 21.99,
                     ),
                     SizedBox(height: 3),
                     navprovider.currentindex == 1
@@ -98,6 +99,7 @@ class BottomNavBar extends StatelessWidget {
                         navprovider.currentindex == 2
                             ? Appcolors.appbluecolor
                             : Appcolors.appdarkgreycolor,
+                    size: 21.99,
                   ),
                   SizedBox(height: 3),
                   navprovider.currentindex == 2
@@ -122,6 +124,7 @@ class BottomNavBar extends StatelessWidget {
                         navprovider.currentindex == 3
                             ? Appcolors.appbluecolor
                             : Appcolors.appdarkgreycolor,
+                    size: 21.99,
                   ),
                   SizedBox(height: 3),
                   navprovider.currentindex == 3

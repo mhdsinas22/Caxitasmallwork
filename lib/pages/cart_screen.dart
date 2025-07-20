@@ -19,7 +19,7 @@ class CartScreen extends StatelessWidget {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Lottie.asset(Appanimations.nocartitems, width: 300),
+                    Lottie.asset(Appanimations.emptycart, width: 300),
                     SizedBox(height: 20),
                     Texts.boldtext(
                       text: "NO ADDED TO CART",

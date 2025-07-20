@@ -44,20 +44,29 @@ class HomeScreen extends StatelessWidget {
         child: Column(
           children: [
             const SizedBox(height: 30),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceAround,
-              children: [
-                Texts.boldtext(text: "Category", fontsize: 18),
-                Container(width: MediaQuery.of(context).size.width * 0.20),
-                TextsIconRowleft(),
-              ],
+            Align(
+              alignment: Alignment.topLeft,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Align(
+                    alignment: Alignment.topLeft,
+                    child: Texts.boldtext(text: "Category", fontsize: 18),
+                  ),
+                  Container(width: MediaQuery.of(context).size.width * 0.23),
+                  Align(
+                    alignment: Alignment.topLeft,
+                    child: TextsIconRowleft(),
+                  ),
+                ],
+              ),
             ),
             ChoiceChipsCategory(),
             SingleChildScrollView(
               scrollDirection: Axis.horizontal,
               child: Row(
                 children: [
-                  SizedBox(width: MediaQuery.of(context).size.width * 0.06),
+                  SizedBox(width: MediaQuery.of(context).size.width * 0.064),
                   InkWell(
                     onTap:
                         () => Navigator.of(context).push(
@@ -100,7 +109,13 @@ class HomeScreen extends StatelessWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Texts.boldtext(text: "Popular Destination", fontsize: 18),
+                  Align(
+                    alignment: Alignment.topLeft,
+                    child: Texts.boldtext(
+                      text: "Popular Destination",
+                      fontsize: 18,
+                    ),
+                  ),
                   Container(width: MediaQuery.of(context).size.width * 0.10),
                   TextsIconRowleft(),
                 ],

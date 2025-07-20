@@ -42,6 +42,7 @@ class Texts {
         fontWeight: FontWeight.bold,
         fontFamily: "Gilory",
         color: color,
+        decoration: TextDecoration.none,
       ),
     );
   }

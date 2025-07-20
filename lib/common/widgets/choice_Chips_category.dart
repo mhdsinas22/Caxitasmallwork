@@ -14,11 +14,7 @@ class ChoiceChipsCategory extends StatelessWidget {
         padding: const EdgeInsets.all(8.0),
         child: Row(
           children: [
-            SizedBox(
-              width:
-                  MediaQuery.of(context).size.width *
-                  0.05, // 5% of screen width
-            ),
+            SizedBox(width: MediaQuery.of(context).size.width * 0.045),
             ChoiceChip(
               onSelected: (value) {},
               backgroundColor: Appcolors.appgreycolor,

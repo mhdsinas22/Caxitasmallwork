@@ -9,4 +9,5 @@ class Appanimations {
       "assets/animations/Recycling Bin.json";
   static const String gpayanimation =
       "assets/animations/Animation - 1745814520802.json";
+  static const String emptycart = "assets/animations/emptysearch.json";
 }

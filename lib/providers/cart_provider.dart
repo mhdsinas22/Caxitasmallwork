@@ -21,10 +21,11 @@ class CartProvider with ChangeNotifier {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Lottie.asset(Appanimations.nocartitems),
+              SizedBox(height: MediaQuery.of(context).size.height * 0.020),
               Texts.boldtext(
                 text: "ADDING TO CART",
                 fontsize: 20,
-                color: Colors.black26,
+                color: Appcolors.appdarkgreycolor,
               ),
             ],
           ),
